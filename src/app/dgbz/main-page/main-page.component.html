@@ -1,0 +1,25 @@
+
+<h1>Personajes de DragonBall</h1>
+
+<div class="row">
+    <div class="col">
+
+        <!-- <app-personajes [personajes]="personajes"></app-personajes> -->
+        <app-personajes></app-personajes>
+        <!-- <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of personajes; let  i = index">
+             {{i + 1}}   {{personaje.nombre}} - {{personaje.poder | number}}</li>
+            
+        </ul> -->
+    </div>
+       
+    <div class="col">
+        <!-- <app-agregar [nuevo]="nuevo"(onNewCharacter)="agregarNuevoPersonaje()"></app-agregar> -->
+        <app-agregar [nuevo]="nuevo"></app-agregar>
+    </div>
+
+
+   
+</div>
